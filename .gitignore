@@ -1,0 +1,31 @@
+# Python cache and virtual environments
+**/__pycache__/
+.venv/
+.env
+.vscode/
+
+# Checkpoints, data, results
+checkpoints/
+data/
+results/
+
+# PyTorch Lightning logs
+lightning_logs/
+.lr_find_*
+.scale_batch_size_*
+
+# bbtest logs
+bbtest_logs/
+
+# Exclude all CSV files (avoid pushing large datasets)
+*.csv
+!requirements.csv  # keep this if you want to track a requirements.csv
+
+# Explicitly ignore these large files (redundant, but clear for reviewers)
+processed_data_filtered.csv
+granger_causality_results.csv
+full_indian_1h.csv
+
+# Exclude common model files
+*.pt
+*.pth
