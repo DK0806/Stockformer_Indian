@@ -186,28 +186,3 @@ Stockformer_Indian/
 * Original repo: [zacswolf/Stockformer2022](https://github.com/zacswolf/Stockformer2022)
 * Indian dataset adaptation, modifications, and maintenance: **Dhruv**
 
-````
-
----
-
-### ✅ Next steps for you
-
-1. Create the file:
-```bash
-nano README.md
-````
-
-2. Paste in the content above.
-
-3. Save and exit (`Ctrl+O`, `Enter`, `Ctrl+X`).
-
-4. Commit and push:
-
-```bash
-git add README.md
-git commit -m "Add complete README with setup instructions"
-git push
-```
-
----
-
