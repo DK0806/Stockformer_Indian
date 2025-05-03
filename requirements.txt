@@ -1,0 +1,24 @@
+# Core
+numpy>=1.20
+pandas>=1.2
+matplotlib>=3.4
+
+# PyTorch
+torch>=1.10
+torchvision>=0.11
+
+# PyTorch Lightning (optional, if used)
+pytorch-lightning>=1.5
+
+# Time-series and general ML
+scikit-learn>=0.24
+
+# Jupyter (for notebooks like prepare_indian_data.ipynb)
+jupyterlab
+
+# ODE solver (only needed if using ODE branch)
+torchdiffeq>=0.2.2
+
+# Other useful tools
+tqdm
+PyYAML>=5.4
